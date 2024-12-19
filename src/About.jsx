@@ -5,7 +5,7 @@ export default function About() {
       <Navbar />
       <img
         className="about-image"
-        src="../src/assets/image55.png"
+        src="./assets/image54.png"
         alt="a man sitting on a van roof"
       />
       <div className="about-body">
