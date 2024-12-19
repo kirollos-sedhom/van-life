@@ -1,11 +1,12 @@
 import Navbar from "./components/Navbar.jsx";
+import aboutHero from "./assets/image55.png";
 export default function About() {
   return (
     <div className="about">
       <Navbar />
       <img
         className="about-image"
-        src="./assets/image54.png"
+        src={aboutHero}
         alt="a man sitting on a van roof"
       />
       <div className="about-body">
